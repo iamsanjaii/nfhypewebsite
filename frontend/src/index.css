@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/bg2.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  font-family: "Jost", sans-serif;
+  
+  height: 100vh;
+  padding: 10px;
+}
+.app{
+  display: flex;
+  margin-top: 120px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+}
+.quizpage{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-items{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+
+}
+.footer{
+  color: white;
+  text-align: center;
+  align-content: baseline;
+}
+.gradient-text {
+  font-size: x-large;
+  background: linear-gradient(180deg, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.nav-items a{
+  text-decoration: none;
+}
+
+.content{
+  margin-top: 50px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 0.5s ease-in;
+}
+.type-text {
+  font-size: xx-large;
+  
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: normal;
+  animation: textAnimation 0.5s ease-in-out ;
+}
+
+.container{
+  text-align: center;
+  max-width: 500px;
+  margin: 20px;
+  padding: 20px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-evenly;
+  width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.1); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
+  color: white; 
+}
+.container h3{
+  font-weight: 500;
+}
+
+.quiz-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-evenly;
+  width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.1); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
+  color: white; 
+}
+.idcard-container {
+  text-align: center;
+
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-evenly;
+  width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.1); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
+  color: white; 
+}
+.quiz-content h3{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.quiz-content h2{
+  font-weight: 300;
+}
+
+.quiz-start-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quiz-start-btn a{
+  padding: 8px 10px;
+  text-decoration: none;
+  background: linear-gradient(90deg, red, orange);
+ color: white;
+ width: 50%;
+ margin-top:20px;
+  border-radius: 6px;
+ 
+  border: none;
+}
+
+/* Hide the default file input */
+#fileInput {
+  display: none;
+}
+
+/* Style the custom button */
+.custom-file-upload {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Style for hover effect */
+
+
+
+.register-field form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.register-field form input{
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 12px;
+  background-color: transparent;
+  color: white;
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+}
+.buttons{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+}
+.buttons button{
+  padding: 10px;
+  width: 50%;
+  background: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: medium;
+  cursor: pointer;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.id-download{
+  padding: 10px 20px;
+  background: white;
+  
+  border-radius: 6px;
+  outline: none;
+  font-size: medium;
+  cursor: pointer;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.id-head-back-home {
+  background: linear-gradient(90deg, red, orange);
+  padding: 10px 20px;
+  width: 50%;
+  border-radius: 6px;
+  outline: none;
+  font-size: medium;
+  cursor: pointer;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 80px;
+}
+
+.idcard{
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
+}
+.result-container{
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+.buttons button:hover{
+  background-color: white;
+  color: black;
+  animation: fadeIn 0.3s ease-in;
+}
+.an-link{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.question-container-wrapper {
+  /* width: 98vw; */
+  height: 86vh;
+  overflow: hidden; /* Hide overflow to create the sliding effect */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  border-radius: 1vmax;
+  /* height: 90vmax; */
+}
+.question-container{
+  width: 100vmax;
+  height: 100%;
+  position: relative;
+  font-size: 3vmax;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 5vmax;
+  backdrop-filter: blur(5px);
+  animation: fadeIn 0.3s ease-in;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  /* height: 20vmax; */
+  color: black;
+  gap: 3vmax;
+}
+.mobile-view{
+  display: none;
+}
+.opt-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7vmax;
+  font-size: 2vmax;
+  text-align: center;
+}
+.choose{
+  background-color: #F5F5DC;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vmax;
+  border-radius: 1vmax;
+  /* height: 4vmax; */
+  padding: 10px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  color: black;
+}
+.question-text{
+  background-color: #F5F5DC;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vmax;
+  border-radius: 1vmax;
+  /* height: 5vmax; */
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+.top-label-A,
+.top-label-B,
+.top-label-C,
+.top-label-D {
+  position: absolute;
+  background-color: #ffd700;
+  width: 4vmax;
+  height: 4vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+  top: -2vmax;
+  left: -2vmax;
+  color: #dc143c;
+}
+.question-button{
+  background-color: #dc143c;
+  border: 0;
+  width: 10vmax;
+  height: 3vmax;
+  color: white;
+  font-size: 1.5vmax;
+  font-weight: 600;
+  border-radius: 1vmax;
+  cursor: pointer;
+}
+.button-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vmax;
+}
+.selected{
+  background-color: #f1f171;
+}
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); /* Slightly smaller */
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1); /* Normal size */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Slightly larger */
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 600px) {
+  .choose{
+    width: 35vmax;
+    font-size: 2.3vmax;
+    padding-top: 2.8vmax;
+    padding-bottom: 2.8vmax;
+  }
+  .question-text{
+    min-width: 35vmax;
+    font-size: 2.3vmax;
+    /* padding-top: 2.8vmax; */
+    /* padding-bottom: 2.8vmax; */
+  }
+  .question-container{
+    /* height: 80vmax; */
+    width: 50vmax;
+  }
+  .question-content{
+    width: 50vmax;
+  }
+  .question-container-wrapper{
+    width: 50vmax;
+    height: 100vh;
+  }
+  .all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .opt-row{
+    display: flex;
+    flex-direction: column;
+    gap: 2.9vmax;
+  }
+  .button-div{
+    padding: 2vmax;
+    gap: 1.5vmax;
+  }
+  .question-button{
+    padding: 1vmax;
+    width: 16vmax;
+    height: 5vmax;
+    font-size: 1.8vmax;
+  }
+}
+
+@media screen and (max-width:420px){
+  .nav-items a{
+    display: none;
+  }
+  .file-upload-label{
+    width: 100px;
+  }
+  .custom-button{
+    width: 100px;
+  }
+  .mobile-view{
+    display: block;
+    /* color: linear-gradient(180deg, red, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; */
+    font-size: 32px;
+  }
+}
+
+.sidebar{
+  top: 0;
+  right: 0;
+  position: fixed;
+  border-radius: 10px;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(5px);
+  box-shadow:  -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  width: 180px;
+align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+
+}
+
+.sidebar li{
+  width: 100%;
+  list-style: none;
+  
+}
+.closemenu{
+font-size: 20px ;
+}
+
+.logout{
+  font-size: x-large;
+  color: red;
+}
+.results-text{
+  
+  font-weight: 300;
+  text-align: center;
+}
+.results-text h2{
+  margin-top: 20px;
+  font-size: 2xl;
+    font-weight: 500;
+}
+.results-text p{
+  font-size: 3xl;
+  font-weight: 200;
+}
+
+/* Customized File Upload Button */
+.file-upload-wrapper {
+  /* display: inline-block;
+  position: relative; */
+  display: block;
+}
+
+.file-upload-input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.file-upload-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+ width: 100%;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.file-upload-label:hover {
+  background: linear-gradient(135deg, #7f9bfb, #b68af3);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.file-upload-label:active {
+  transform: scale(0.98);
+}
+
+/* Optional: Adjust the font size and margins */
+.file-upload-label span {
+  margin-left: 8px;
+}
+/* Customized Button Styling */
+.custom-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff6a6a, #ff9a9e);
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button:hover {
+  background: linear-gradient(135deg, #ff7b7b, #ffadad);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button:active {
+  transform: scale(0.98);
+}
+
+.custom-button:focus {
+  outline: none;
+}
+
+/* Optional: Button with icon */
+.custom-button .icon {
+  margin-right: 8px;
+}
+
+/* Optional: Button variants for different colors */
+.custom-button.blue {
+  background: linear-gradient(135deg, #6a89ff, #9ec1ff);
+}
+
+.custom-button.green {
+  background: linear-gradient(135deg, #6aff6a, #9eff9e);
+}
+
+.custom-button.yellow {
+  background: linear-gradient(135deg, #ffd66a, #ffe79e);
+}
+@media screen and (max-width:420px){
+
+  .custom-button{
+    width: 300px;
+  }
+  .file-upload-label{
+    width: 300px;
+  }
+
+}

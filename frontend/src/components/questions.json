@@ -1,0 +1,422 @@
+[
+  {
+      "title": "Which colour of Lays do you prefer?",
+      "options": [
+          {
+              "answer": "Blue",
+              "team": "PRnC"
+          },
+          {
+              "answer": "Red",
+              "team": "NMT"
+          },
+          {
+              "answer": "Orange",
+              "team": "NET"
+          },
+          {
+              "answer": "Purple",
+              "team": "Ambience"
+          }
+      ]
+  },
+  {
+      "title": "What would you do if your friend is held hostage?",
+      "options": [
+          {
+              "answer": "I'd start planning their funeral",
+              "team": "NET"
+          },
+          {
+              "answer": "I'd negotiate with the killer",
+              "team": "PRnC"
+          },
+          {
+              "answer": "I'd call the police",
+              "team": "PAIN"
+          },
+          {
+              "answer": "I'd take out them guns 💪",
+              "team": "NOC"
+          }
+      ]
+  },
+  {
+      "title": "If you have a glass with water…",
+      "options": [
+          {
+              "answer": "It's half full",
+              "team": "Design"
+          },
+          {
+              "answer": "It's half empty",
+              "team": "NET"
+          },
+          {
+              "answer": "It's vodka not water",
+              "team": "PRnC"
+          },
+          {
+              "answer": "I'd place flowers in it",
+              "team": "Ambience"
+          }
+      ]
+  },
+  {
+      "title": "I have a crush on someone",
+      "options": [
+          {
+              "answer": "Go and tell them",
+              "team": "PRnC"
+          },
+          {
+              "answer": "Stay delusional",
+              "team": "Ambience"
+          },
+          {
+              "answer": "Stalk their entire family tree",
+              "team": "NMT"
+          },
+          {
+              "answer": "Take a compatibility test",
+              "team": "PAIN"
+          }
+      ]
+  },
+  {
+      "title": "What would you do on a Friday night?",
+      "options": [
+          {
+              "answer": "Have a gossip sesh",
+              "team": "NOC"
+          },
+          {
+              "answer": "Improve my CG",
+              "team": "NMT"
+          },
+          {
+              "answer": "Bubble bath with my duck",
+              "team": "NDT"
+          },
+          {
+              "answer": "Party",
+              "team": "PRnC"
+          }
+      ]
+  },
+  {
+      "title": "How would you escape a serial killer?",
+      "options": [
+          {
+              "answer": "Pretend you're dead",
+              "team": "NDT"
+          },
+          {
+              "answer": "Fight them",
+              "team": "PAIN"
+          },
+          {
+              "answer": "Gaslight them into thinking they're chasing the wrong guy",
+              "team": "PRnC"
+          },
+          {
+              "answer": "Accept your fate",
+              "team": "NMT"
+          }
+      ]
+  },
+  {
+      "title": "How would you describe your yapping skills?",
+      "options": [
+          {
+              "answer": "I'd rather not",
+              "team": "Ambience"
+          },
+          {
+              "answer": "Hand me a gavel and I can handle a MUN",
+              "team": "PRnC"
+          },
+          {
+              "answer": "I could convince my prof for S grade",
+              "team": "PAIN"
+          },
+          {
+              "answer": "Actions speak louder than words",
+              "team": "NOC"
+          }
+      ]
+  },
+  {
+      "title": "What quote relates to you the most?",
+      "options": [
+          {
+              "answer": "I like work, it fascinates me, I can sit and stare at it for hours",
+              "team": "NDT"
+          },
+          {
+              "answer": "When in doubt, look intelligent",
+              "team": "PAIN"
+          },
+          {
+              "answer": "Life is like a joke, if you have to explain it, it's probably not that good",
+              "team": "NOC"
+          },
+          {
+              "answer": "I'd like to live like a poor man, only with lots of money",
+              "team": "NMT"
+          }
+      ]
+  },
+  {
+      "title": "What colour do you see?",
+      "options": [
+          {
+              "answer": "Skin Colour",
+              "team": "NET"
+          },
+          {
+              "answer": "It's just white bro",
+              "team": "NOC"
+          },
+          {
+              "answer": "#F5F5DC",
+              "team": "Ambience"
+          },
+          {
+              "answer": "The colour of simplicity and comfort. A gentle touch of unwavering promises.",
+              "team": "NMT"
+          }
+      ]
+  },
+  {
+      "title": "What’s the best food combo?",
+      "options": [
+          {
+              "answer": "Ice-cream and Ketchup",
+              "team": "NET"
+          },
+          {
+              "answer": "Banana and Mayo",
+              "team": "Ambience"
+          },
+          {
+              "answer": "Oreos and Orange Juice",
+              "team": "PAIN"
+          },
+          {
+              "answer": "Gulab Jamun and Sambar",
+              "team": "NDT"
+          }
+      ]
+  },
+  {
+      "title": "How old are you mentally?",
+      "options": [
+          {
+              "answer": "2763",
+              "team": "NOC"
+          },
+          {
+              "answer": "2",
+              "team": "NET"
+          },
+          {
+              "answer": "Dead.",
+              "team": "NMT"
+          },
+          {
+              "answer": "Old enough",
+              "team": "PAIN"
+          }
+      ]
+  },
+  {
+      "title": "Why did you ghost me?",
+      "options": [
+          {
+              "answer": "You said you loved me",
+              "team": "NET"
+          },
+          {
+              "answer": "Those lovely promises were fake",
+              "team": "NMT"
+          },
+          {
+              "answer": "or WOTT?",
+              "team": "NOC"
+          },
+          {
+              "answer": "um nana",
+              "team": "NDT"
+          }
+      ]
+  },
+  {
+      "title": "If colours had a smell, which colour would smell the worst?",
+      "options": [
+          {
+              "answer": "Grey",
+              "team": "NET"
+          },
+          {
+              "answer": "Brown",
+              "team": "PAIN"
+          },
+          {
+              "answer": "Green",
+              "team": "Ambience"
+          },
+          {
+              "answer": "Yellow",
+              "team": "NDT"
+          }
+      ]
+  },
+  {
+      "title": "What's your spirit animal?",
+      "options": [
+          {
+              "answer": "Vijay from Sura",
+              "team": "Ambience"
+          },
+          {
+              "answer": "Vijay from Puli",
+              "team": "PAIN"
+          },
+          {
+              "answer": "Vijay from Leo",
+              "team": "NMT"
+          },
+          {
+              "answer": "Vijay from Beast",
+              "team": "NOC"
+          }
+      ]
+  },
+  {
+      "title": "What is the name of your wifi?",
+      "options": [
+          {
+              "answer": "Connecting",
+              "team": "Ambience"
+          },
+          {
+              "answer": "Bingbingboo",
+              "team": "NOC"
+          },
+          {
+              "answer": "…….",
+              "team": "PAIN"
+          },
+          {
+              "answer": "Wi can Fi",
+              "team": "NMT"
+          }
+      ]
+  },
+  {
+      "title": "How do you reply to someone who pisses you off?",
+      "options": [
+          {
+              "answer": "kkay…",
+              "team": "PRnC"
+          },
+          {
+              "answer": "*seenzoned*",
+              "team": "NET"
+          },
+          {
+              "answer": "*deliver-zoned*",
+              "team": "PAIN"
+          },
+          {
+              "answer": "*blocked*",
+              "team": "Ambience"
+          }
+      ]
+  },
+  {
+      "title": "What do you think people remember you for?",
+      "options": [
+          {
+              "answer": "For being a gold digger",
+              "team": "NMT"
+          },
+          {
+              "answer": "Being a pick-me",
+              "team": "NDT"
+          },
+          {
+              "answer": "Zoning out",
+              "team": "PAIN"
+          },
+          {
+              "answer": "Reel addict",
+              "team": "NOC"
+          }
+      ]
+  },
+  {
+      "title": "Which among these aesthetics do you relate with the most?",
+      "options": [
+          {
+              "answer": "https://i.pinimg.com/564x/4a/d8/07/4ad807b36af04f65a877c81dceb381c1.jpg",
+              "team": "PRnC"
+          },
+          {
+              "answer": "https://i.pinimg.com/564x/4d/7e/7e/4d7e7e48e0bb4aa95386a178463679ca.jpg",
+              "team": "NET"
+          },
+          {
+              "answer": "https://i.pinimg.com/564x/8d/5d/e2/8d5de2ffc4d11778a7a9fcf3f93ab672.jpg",
+              "team": "Ambience"
+          },
+          {
+              "answer": "https://i.pinimg.com/564x/2c/31/1a/2c311ad83e6ab03663c93ecd533b9a02.jpg",
+              "team": "NOC"
+          }
+      ]
+  },
+  {
+      "title": "Your favorite subject in school?",
+      "options": [
+          {
+              "answer": "Biology",
+              "team": "PRnC"
+          },
+          {
+              "answer": "Chemistry",
+              "team": "Ambience"
+          },
+          {
+              "answer": "Math",
+              "team": "NMT"
+          },
+          {
+              "answer": "Physics",
+              "team": "NET"
+          }
+      ]
+  },
+  {
+      "title": "Where would you go on your first date?",
+      "options": [
+          {
+              "answer": "Eating Golgappa",
+              "team": "PAIN"
+          },
+          {
+              "answer": "Chatting while stargazing",
+              "team": "PRnC"
+          },
+          {
+              "answer": "Long drive",
+              "team": "NMT"
+          },
+          {
+              "answer": "Straight to their parents’ house",
+              "team": "Ambience"
+          }
+      ]
+  }
+]
